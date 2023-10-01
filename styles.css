@@ -129,7 +129,8 @@ button {
     height: auto;
     border: 5px solid #3882f6;
     border-radius: 10px;
-    transition: .4s;
+    transition: .3s;
+    transition-delay: .3s;
 }
 
 .content-img:hover {
