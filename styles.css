@@ -15,6 +15,11 @@ ul {
     margin: 0;
 }
 
+button {
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
 .main-text {
     font-size: 24px;
     color: #e5e7eb;
@@ -83,6 +88,11 @@ ul {
     margin: 0;
 }
 
+.top-pic img {
+    height: auto; 
+    width: 500px;
+}
+
 .top-words {
     display: flex;
     flex-direction: column;
@@ -122,6 +132,7 @@ ul {
     width: 150px;
     height: auto;
     border: 5px solid #3882f6;
+    border-radius: 10px;
 }
 
 .lower {
@@ -155,8 +166,8 @@ ul {
     padding: 32px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
-
 
 .footer{
     display: flex;
