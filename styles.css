@@ -67,15 +67,22 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 32px;
+    padding: 16px 128px 0px;
     margin: 0;
 }
 
 .top-content {
     display: flex;
     align-items: center;
-    padding: 32px;
+    padding: 128px;
     gap: 32px;
+    margin: 0;
+}
+
+.top-words {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .upper {
@@ -83,13 +90,15 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 128px;
     gap: 32px;
 }
 
 .upper-content {
     display: flex;
     gap: 32px;
+    margin: 0;
+    padding: 0;
 }
 
 .one,
@@ -101,12 +110,18 @@ ul {
     align-items: center;
 }
 
+.content-img {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882f6;
+}
+
 .lower {
     background-color: #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 32px;
+    padding: 128px;
     margin: 0;
     gap: 8px;
 }
@@ -115,13 +130,14 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: end;
+    padding: 0 128px 0;
 }
 
 .bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 36px;
+    padding: 128px;
 }
 
 .bottom-content {
@@ -129,7 +145,10 @@ ul {
     background-color: #3882f6;
     gap: 32px;
     padding: 32px;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .footer{
     display: flex;
@@ -137,3 +156,4 @@ ul {
     align-items: center;
     padding: 16px;
 }
+
